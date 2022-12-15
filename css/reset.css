@@ -54,3 +54,5 @@ input:focus{
 input{
 	border: none;
 }
+
+a{-webkit-tap-highlight-color: transparent;}
