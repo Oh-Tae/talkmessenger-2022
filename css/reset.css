@@ -53,6 +53,7 @@ input:focus{
 
 input{
 	border: none;
+	-webkit-appearance: none;
 }
 
 a{-webkit-tap-highlight-color: transparent;}

@@ -8,12 +8,14 @@
     border-radius: 5px;
     font-size: 18px;
     font-weight: 500;
+    -webkit-box-shadow: 0 5px 0 #3F8FAC;
     box-shadow: 0 5px 0 #3F8FAC;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .primary-btn-3d:hover{
+    -webkit-box-shadow: 0 0px 0 #3F8FAC;
     box-shadow: 0 0px 0 #3F8FAC;
     transform: translateY(5px);
 }
@@ -28,12 +30,14 @@
     border-radius: 5px;
     font-size: 18px;
     font-weight: 500;
+    -webkit-box-shadow: 0 5px 0 #B0B0B0;
     box-shadow: 0 5px 0 #B0B0B0;
     cursor: pointer;
     transition: all 0.2s ease-in-out;
 }
 
 .secondary-btn-3d:hover{
+    -webkit-box-shadow: 0 0px 0 #B0B0B0;
     box-shadow: 0 0px 0 #B0B0B0;;
     transform: translateY(5px);
 }
