@@ -1,0 +1,52 @@
+.wave-icon{
+    width: 160px;
+    height: 160px;
+    border-radius: 50px;
+    border: 3px solid rgba(255, 255, 255, 0.7);
+    overflow: hidden;
+    position: relative;
+}
+.wave-icon__wave{
+    width: 300px;
+    height: 300px;
+    border-radius: 43%;
+}
+
+.wave-icon__wave:first-child{
+    background-color: #add8e6;
+    animation: wave 3s infinite linear;
+    position: absolute;
+    top: 50%;
+    right: -50%;
+}
+
+.wave-icon__wave:nth-child(2){
+    background-color: #CFF3FF;
+    animation: wave 5s infinite linear;
+    position: absolute;
+    top: 65%;
+    right: -55%;
+}
+
+.wave-icon__wave:nth-child(3){
+    background-color: #8FDBF4;
+    animation: wave 3s infinite linear;
+    position: absolute;
+    top: 75%;
+    right: -45%;
+}
+
+@keyframes wave {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.wave-icon__text{
+    font-size: 24px;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    text-decoration: underline;
+}
