@@ -18,10 +18,27 @@
     color: rgba(255,255,255,0.8);
 }
 
+.group-classifying__title--detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .group-classifying .user-component{
     margin: 10px 0;
 }
 
 .group-classifying:last-child{
     margin-bottom: 50px;
+}
+.group-classifying .empty-content-box{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

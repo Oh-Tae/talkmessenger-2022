@@ -1,4 +1,5 @@
 @import "reset.css";
+@import "variables.css";
 
 /* component */
 @import "component/status.css";
@@ -9,6 +10,9 @@
 @import "component/user-component.css";
 @import "component/group-classifying.css";
 @import "component/badge.css";
+@import "component/icons-table.css";
+@import "component/open-post.css";
+@import "component/segment-block.css";
 
 /* page */
 @import "page/login.css";
@@ -41,4 +45,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+
+.main-screen{
+    margin: 0 4%;
 }

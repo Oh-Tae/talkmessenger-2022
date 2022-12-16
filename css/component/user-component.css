@@ -16,6 +16,12 @@
     padding-top: 5px;
 }
 
+.user-component__sub-seg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .user-component__sub .badge{
     margin-top: 5px;
 }
@@ -53,4 +59,13 @@
     margin-top: 8px;
     font-size: 14px;
     color: rgba(255, 255, 255, 0.8);
+}
+
+.user-component__main--sub-title i{
+    color:#71D1F1;
+}
+
+.user-component__sub i[class="fa-solid fa-link"]{
+    font-size: 24px;
+    margin-right: 20px;
 }
