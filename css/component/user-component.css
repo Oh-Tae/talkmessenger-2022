@@ -60,3 +60,12 @@
     font-size: 14px;
     color: rgba(255, 255, 255, 0.8);
 }
+
+.user-component__main--sub-title i{
+    color:#71D1F1;
+}
+
+.user-component__sub i[class="fa-solid fa-link"]{
+    font-size: 24px;
+    margin-right: 20px;
+}
