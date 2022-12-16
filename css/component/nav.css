@@ -15,6 +15,22 @@
 }
 
 .nav__a{
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
+}
+
+.destination-friend .nav__icon-friend{
+    color: rgba(255, 255, 255, 1);
+}
+
+.destination-chats .nav__icon-chats{
+    color: rgba(255, 255, 255, 1);
+}
+
+.destination-search .nav__icon-search{
+    color: rgba(255, 255, 255, 1);
+}
+
+.destination-more .nav__icon-more{
+    color: rgba(255, 255, 255, 1);
 }
