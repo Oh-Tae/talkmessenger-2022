@@ -1,0 +1,24 @@
+.group-classifing{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 4%;
+    border-top: 0.5px solid rgba(255,255,255,0.8);
+    padding-top: 10px;
+}
+
+.group-classifing__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.group-classifing__title--text{
+    font-weight: 300;
+    color: rgba(255,255,255,0.8);
+}
+
+.group-classifing .user-component{
+    margin: 10px 0;
+}
+

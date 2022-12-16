@@ -1,0 +1,44 @@
+.user-component{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 4%;
+}
+
+.user-component__col{
+    display: flex;
+}
+
+.user-component__main{
+    display: flex;
+    align-items: center;
+}
+
+.user-component__main--big-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.user-component__main--small-img{
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.user-component__main--text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10px;
+}
+
+.user-component__main--title{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.user-component__main--sub-title{
+    margin-top: 8px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
