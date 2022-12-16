@@ -2,7 +2,7 @@
     background-color: #232323;
     height: 50px;
     padding: 18px 6% 16px 6%;
-    position: absolute;
+    position: fixed;
     bottom: 0px;
     width: 100%;
     box-sizing: border-box;

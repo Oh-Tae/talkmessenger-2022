@@ -16,6 +16,10 @@
     margin-right: 10px;
 }
 
+.main-header__col .add_circle-i{
+    margin-right: 10px;
+}
+
 .main-header__col{
     display: flex;
     flex-wrap: wrap;

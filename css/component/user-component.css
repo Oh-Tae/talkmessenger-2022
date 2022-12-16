@@ -8,6 +8,18 @@
     display: flex;
 }
 
+.user-component__sub{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.user-component__sub .badge{
+    margin-top: 5px;
+}
+
 .user-component__main{
     display: flex;
     align-items: center;
