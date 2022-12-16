@@ -1,4 +1,4 @@
-.group-classifing{
+.group-classifying{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -7,18 +7,21 @@
     padding-top: 10px;
 }
 
-.group-classifing__title{
+.group-classifying__title{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.group-classifing__title--text{
+.group-classifying__title--text{
     font-weight: 300;
     color: rgba(255,255,255,0.8);
 }
 
-.group-classifing .user-component{
+.group-classifying .user-component{
     margin: 10px 0;
 }
 
+.group-classifying:last-child{
+    margin-bottom: 50px;
+}
