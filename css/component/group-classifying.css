@@ -18,6 +18,12 @@
     color: rgba(255,255,255,0.8);
 }
 
+.group-classifying__title--detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .group-classifying .user-component{
     margin: 10px 0;
 }

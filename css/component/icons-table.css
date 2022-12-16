@@ -1,0 +1,28 @@
+.icons-table{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+    margin: 20px 4%;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icons-table__icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-table__icon i{
+    font-size: 30px;
+}
+
+.icons-table__icon span{
+    font-size: 16px;
+    color: var(--secondary-font-color);
+    margin-top: 20px;
+    text-align: center;
+}
+

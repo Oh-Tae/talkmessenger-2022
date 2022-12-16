@@ -16,6 +16,12 @@
     padding-top: 5px;
 }
 
+.user-component__sub-seg{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
 .user-component__sub .badge{
     margin-top: 5px;
 }
