@@ -1,0 +1,27 @@
+#big-screen{
+    position: absolute;
+    background-color: #4B4B4B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 120vh;
+    top: -40px;
+    z-index: 20;
+}
+
+#big-screen h4{
+    font-size: 28px;
+}
+
+#big-screen span{
+    margin-top: 16px;
+    margin-bottom: 20vh;
+}
+
+@media screen and (max-width: 800px) {
+    #big-screen{
+        display: none;
+    }
+}

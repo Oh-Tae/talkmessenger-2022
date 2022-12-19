@@ -16,6 +16,8 @@
 @import "component/sub-header.css";
 @import "component/col-list.css";
 @import "component/chat-box.css";
+@import "component/big-screen.css";
+@import "component/splash.css";
 
 /* page */
 @import "page/login.css";
@@ -50,35 +52,4 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-}
-
-.hr__divider{
-    width: inherit;
-    height: 0.5px;
-    background-color: white;
-    margin: 30px 0;
-}
-
-#splash{
-    position: absolute;
-    background-color: #4B4B4B;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 100vh;
-    top: -40px;
-    z-index: 100;
-    animation: splash 0.3s ease-in-out forwards;
-    animation-delay: 1.2s;
-}
-
-@keyframes splash {
-    from{
-        opacity: 1;
-    }
-    to{
-        opacity: 0;
-        visibility: hidden;
-    }
 }
