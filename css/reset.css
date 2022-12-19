@@ -59,3 +59,8 @@ input{
 a{
 	-webkit-tap-highlight-color: transparent;
 }
+
+.a-none{
+	text-decoration: none;
+	color:inherit;
+}

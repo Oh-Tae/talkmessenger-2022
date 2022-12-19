@@ -57,3 +57,51 @@ body {
     background-color: white;
     margin: 30px 0;
 }
+
+.chat-input{
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    bottom: 0;
+    background-color: lightblue;
+    height: 48px;
+    width: 100%;
+    padding: 4px 4%;
+    border-top: solid 1px rgba(255, 255, 255, 1);
+    border-bottom: solid 1px rgba(255, 255, 255, 1);
+}
+
+.chat-input__col{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.chat-input__input{
+    margin-left: 16px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.chat-action-box{
+    position: absolute;
+    bottom: 3px;
+    right: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.chat-action-box__icon{
+    margin-right: 8px;
+}
+
+.chat-input .chat-input__col:first-child{
+    margin-right: 8px;
+}
+
+.chat-input .chat-input__col:last-child{
+    width: 100%;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 20px;
+}
