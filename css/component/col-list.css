@@ -38,3 +38,10 @@
 .col-list__li .col-list__col:last-child span{
     color: var(--secondary-font-color);
 }
+
+.hr__divider{
+    width: inherit;
+    height: 0.5px;
+    background-color: white;
+    margin: 30px 0;
+}
