@@ -15,10 +15,12 @@
 @import "component/segment-block.css";
 @import "component/sub-header.css";
 @import "component/col-list.css";
+@import "component/chat-box.css";
 
 /* page */
 @import "page/login.css";
 @import "page/friend.css";
+@import "page/chat.css";
 
 *{
     box-sizing: border-box;
