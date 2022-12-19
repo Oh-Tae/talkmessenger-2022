@@ -2,6 +2,20 @@
     display: flex;
     justify-content: space-between;
     margin: 10px 4%;
+    border-radius: 10px;
+}
+
+.user-component:hover{
+    animation: lineUser-component 0.2s linear forwards;
+}
+
+@keyframes lineUser-component{
+    from{
+        transform: none;
+    }
+    to{
+        box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.2);
+    }
 }
 
 .user-component__col{
@@ -69,3 +83,4 @@
     font-size: 24px;
     margin-right: 20px;
 }
+

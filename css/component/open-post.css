@@ -84,3 +84,21 @@
 .open-post__likes i{
     margin-top: 1px;
 }
+
+.open-post__likes:hover{
+    animation: heartbeat 1s linear infinite;
+    will-change: transform;
+}
+
+@keyframes heartbeat{
+    0%{
+        transform: none;
+    }
+    50%{
+        color: tomato;
+        transform: scale(1.02);
+    }
+    100%{
+        transform: none;
+    }
+}
